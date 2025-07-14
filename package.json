@@ -1,0 +1,24 @@
+{
+  "name": "api-detail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "update-stats": "node scripts/updateStats.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamednourzaei/api-detail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamednourzaei/api-detail/issues"
+  },
+  "homepage": "https://github.com/hamednourzaei/api-detail#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}

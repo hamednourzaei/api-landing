@@ -1,0 +1,47 @@
+name: Update Stats JSON
+
+on:
+  schedule:
+    - cron: "5 * * * *" # اجرای ساعتی در دقیقه ۵
+  workflow_dispatch: # اجرای دستی
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HAMEDMKM }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Ensure data directory exists
+        run: mkdir -p data
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run update script
+        run: npm run update-stats
+
+      - name: Commit & Push changes to main
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "🔁 update stats.json automatically"
+          git push https://${{ secrets.HAMEDMKM }}@github.com/hamednourzaei/api-detail.git main
+
