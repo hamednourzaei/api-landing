@@ -43,5 +43,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add .
           git diff --cached --quiet || git commit -m "🔁 update stats.json automatically"
-          git push https://${{ secrets.HAMEDMKM }}@github.com/hamednourzaei/api-detail.git main
+          git push https://${{ secrets.HAMEDMKM }}@github.com/hamednourzaei/api-landing.git main
 
