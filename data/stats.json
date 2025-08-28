@@ -1,125 +1,160 @@
 [
   {
     "title": "تعداد بازدید وب‌سایت‌ها",
-    "value": 1101530,
+    "value": 1101540,
     "growth": 10,
     "chartData": [
       {
         "day": "شنبه",
-        "visits": 156660
+        "visits": 156672
       },
       {
         "day": "یک‌شنبه",
-        "visits": 169510
+        "visits": 169522
       },
       {
         "day": "دوشنبه",
-        "visits": 151790
+        "visits": 151802
       },
       {
         "day": "سه‌شنبه",
-        "visits": 159900
+        "visits": 159912
       },
       {
         "day": "چهارشنبه",
-        "visits": 167260
+        "visits": 167272
       },
       {
         "day": "پنج‌شنبه",
-        "visits": 180590
+        "visits": 180602
       },
       {
         "day": "جمعه",
-        "visits": 148820
+        "visits": 148832
       }
     ]
   },
   {
     "title": "تعداد کاربران جدید",
-    "value": 2323,
+    "value": 2333,
     "growth": 5,
     "chartData": [
       {
         "day": "شنبه",
-        "visits": 2808
+        "visits": 2820
       },
       {
         "day": "یک‌شنبه",
-        "visits": 2815
+        "visits": 2827
       },
       {
         "day": "دوشنبه",
-        "visits": 2810
+        "visits": 2822
       },
       {
         "day": "سه‌شنبه",
-        "visits": 2819
+        "visits": 2831
       },
       {
         "day": "چهارشنبه",
-        "visits": 2812
+        "visits": 2824
       },
       {
         "day": "پنج‌شنبه",
-        "visits": 2814
+        "visits": 2826
       },
       {
         "day": "جمعه",
-        "visits": 2825
+        "visits": 2837
       }
     ]
   },
   {
     "title": "وب‌سایت‌های زیرمجموعه",
-    "value": 6385,
+    "value": 6395,
     "growth": 3,
     "chartData": [
       {
         "day": "شنبه",
-        "visits": 2818
+        "visits": 2830
       },
       {
         "day": "یک‌شنبه",
-        "visits": 2815
+        "visits": 2827
       },
       {
         "day": "دوشنبه",
-        "visits": 2743
+        "visits": 2755
       },
       {
         "day": "سه‌شنبه",
-        "visits": 2817
+        "visits": 2829
       },
       {
         "day": "چهارشنبه",
-        "visits": 2811
+        "visits": 2823
       },
       {
         "day": "پنج‌شنبه",
-        "visits": 2744
+        "visits": 2756
       },
       {
         "day": "جمعه",
-        "visits": 2817
+        "visits": 2829
       }
     ]
   },
   {
     "title": "سرورهای فعال",
-    "value": 2323,
+    "value": 2333,
     "growth": 2,
     "chartData": [
       {
         "day": "شنبه",
-        "visits": 2810
+        "visits": 2822
       },
       {
         "day": "یک‌شنبه",
-        "visits": 2811
+        "visits": 2823
       },
       {
         "day": "دوشنبه",
-        "visits": 2817
+        "visits": 2829
+      },
+      {
+        "day": "سه‌شنبه",
+        "visits": 2831
+      },
+      {
+        "day": "چهارشنبه",
+        "visits": 2827
+      },
+      {
+        "day": "پنج‌شنبه",
+        "visits": 2824
+      },
+      {
+        "day": "جمعه",
+        "visits": 2811
+      }
+    ]
+  },
+  {
+    "title": "تحلیل‌های امروز",
+    "value": 2367,
+    "growth": 4,
+    "chartData": [
+      {
+        "day": "شنبه",
+        "visits": 2807
+      },
+      {
+        "day": "یک‌شنبه",
+        "visits": 2818
+      },
+      {
+        "day": "دوشنبه",
+        "visits": 2809
       },
       {
         "day": "سه‌شنبه",
@@ -127,85 +162,50 @@
       },
       {
         "day": "چهارشنبه",
-        "visits": 2815
+        "visits": 2820
       },
       {
         "day": "پنج‌شنبه",
-        "visits": 2812
+        "visits": 2809
       },
       {
         "day": "جمعه",
-        "visits": 2799
-      }
-    ]
-  },
-  {
-    "title": "تحلیل‌های امروز",
-    "value": 2357,
-    "growth": 4,
-    "chartData": [
-      {
-        "day": "شنبه",
-        "visits": 2795
-      },
-      {
-        "day": "یک‌شنبه",
-        "visits": 2806
-      },
-      {
-        "day": "دوشنبه",
-        "visits": 2797
-      },
-      {
-        "day": "سه‌شنبه",
-        "visits": 2807
-      },
-      {
-        "day": "چهارشنبه",
-        "visits": 2808
-      },
-      {
-        "day": "پنج‌شنبه",
-        "visits": 2797
-      },
-      {
-        "day": "جمعه",
-        "visits": 2797
+        "visits": 2809
       }
     ]
   },
   {
     "title": "قطع همکاری‌های هفته اخیر",
-    "value": 2331,
+    "value": 2341,
     "growth": -9,
     "chartData": [
       {
         "day": "شنبه",
-        "visits": 2747
+        "visits": 2759
       },
       {
         "day": "یک‌شنبه",
-        "visits": 2740
+        "visits": 2752
       },
       {
         "day": "دوشنبه",
-        "visits": 2749
+        "visits": 2761
       },
       {
         "day": "سه‌شنبه",
-        "visits": 2741
+        "visits": 2753
       },
       {
         "day": "چهارشنبه",
-        "visits": 2648
+        "visits": 2660
       },
       {
         "day": "پنج‌شنبه",
-        "visits": 2647
+        "visits": 2659
       },
       {
         "day": "جمعه",
-        "visits": 2649
+        "visits": 2661
       }
     ]
   }
